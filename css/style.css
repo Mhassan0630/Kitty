@@ -11,5 +11,43 @@ nav{
     background-color: #5d4954;
     font-family: 'Kumbh Sans', sans-serif;
 }
+.logo{
+    color: rgb(211, 195, 195);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
 
+}
+.nav-links{
+    display: flex;
+    width: 30;
+    justify-content: space-around;
+}
+.nav-links li{
+    list-style: none;
 
+}
+.nav-links a{
+    color: rgb(211, 195, 195);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger {
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(211, 195, 195);
+    margin: 5px;
+}
+
+@media screen and (max-width:768px){
+    body{
+        display: none;
+    }
+}
+    
+}
